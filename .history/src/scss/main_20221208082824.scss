@@ -1,0 +1,31 @@
+@import './reset';
+@import './settings/colors';
+@import './settings/fonts';
+@import '../components/atoms/buttonsMenu/buttonsMenu';
+@import '../components/molecules/navMenu/navMenu';
+@import '../components/atoms/buttonsLoginLogout/buttonsLoginLogout';
+@import '../components/molecules/navLoginLogout/navLoginLogout';
+@import '../components/molecules/menu/menu';
+@import '../components/atoms/photoInHeader/photoInHeader.scss';
+@import '../components/organisms/header/header';
+@import '../components/atoms/partTextInHeader/firstPartText';
+@import '../components/molecules/rightPart/rightPart';
+@import '../components/molecules/textInHeader/textInHeader';
+@import '../components/atoms/decorationAssets/decorationAssets';
+@import '../components/molecules/menuRightPartContext/menuRightPartContext';
+@import '../components/atoms/buttonsInRightPartContext/buttonsInRightPartContext';
+@import '../components/organisms/threeColumns/threeColumns';
+@import '../pages/home/home';
+@import '../components/molecules/oneColumn/oneColumn';
+@import '../components/atoms/counterInColumn/counterInColumn';
+@import '../components/atoms/titleInColumn/titleInColumn';
+@import '../components/atoms/textInColumn/textInColumn';
+@import '../components/atoms/simpleStepsTitle/simpleStepsTitle';
+@import '../components/organisms/simpleSteps/simpleSteps';
+@import '../components/atoms/simpleStepsColumn/simpleStepsColumn';
+@import '../components/molecules/simpleStepsBar/simpleStepsBar';
+@import '../components/organisms/aboutUsBar/aboutUsBar';
+
+* {
+    font-family: $font-base;
+}

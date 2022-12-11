@@ -1,0 +1,15 @@
+@import '../../../scss/settings/fonts';
+@import '../../../scss/settings/colors';
+@import '../../../scss/settings/otherVariables';
+
+.aboutUsText {
+    background-color: $white-color;
+    width: 958px;
+    padding: 186px 152px;
+
+    .aboutUsSignature {
+        background-image: url('../../../assets/Signature.png');
+        width: 209px;
+        height: 149px;
+    }
+}

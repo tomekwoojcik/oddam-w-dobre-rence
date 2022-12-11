@@ -1,0 +1,23 @@
+@import '../../../scss/settings/fonts';
+@import '../../../scss/settings/colors';
+@import '../../../scss/settings/otherVariables';
+
+
+.whoWeHelpListItem {
+    width: 1334px;
+    border-bottom: $border;
+    .whoWeHelpListItemContent {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        .leftPart{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-startg;
+        }
+        .items{
+            align-self: center;
+        }
+    }
+}

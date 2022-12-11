@@ -1,0 +1,16 @@
+@import '../../molecules/whoWeHelpButtons/whoWeHelpButtons';
+@import '../../../scss/settings/fonts';
+@import '../../../scss/settings/colors';
+
+.whoWeHelpButton{
+    .button{
+        background-color: white;
+        font-family: $font-base;
+        color: $black-color;
+        font-size: 24px;
+    }
+
+    .button:hover{
+        
+    }
+}

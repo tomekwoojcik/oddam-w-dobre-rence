@@ -1,0 +1,15 @@
+@import '../../molecules/contactUsForm/contactUsForm';
+
+@import '../../molecules/footer/footer'
+.contactUs{
+    background: url('../../../assets/Background-Contact-Form.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 50%;
+    width: 100%;
+    height: 1026px;
+    margin-top: 80px;
+
+    display: flex;
+    flex-direction: column;
+}

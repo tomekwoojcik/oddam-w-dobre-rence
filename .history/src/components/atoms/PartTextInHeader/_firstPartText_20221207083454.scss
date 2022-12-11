@@ -1,0 +1,8 @@
+@import '../../../scss/settings/fonts';
+@import '../../../scss/settings/colors';
+
+.textInHeader{
+    font-family: $font-base;
+    font-size: 38px;
+    margin-bottom: 10px;
+}

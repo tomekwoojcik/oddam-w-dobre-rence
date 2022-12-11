@@ -1,0 +1,17 @@
+@import '../../../scss/settings/fonts';
+@import '../../../scss/settings/colors';
+@import '../../../scss/settings/otherVariables';
+
+.whoWeHelpButton {
+    background-color: white;
+    font-family: $font-base;
+    color: $black-color;
+    font-size: 24px;
+    border: $blind-border;
+    padding: 23px 42px;
+    height: calc(79px - 46px);
+}
+
+.whoWeHelpButton:hover {
+    border: $border;
+}

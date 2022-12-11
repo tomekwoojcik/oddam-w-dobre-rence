@@ -1,0 +1,32 @@
+@import '../../../scss/settings/fonts';
+@import '../../../scss/settings/colors';
+@import '../../../scss/settings/otherVariables';
+
+.simpleStepsColumn {
+    width: 130px;
+    height: 172px;
+
+    .simpleStepsColumnImg {
+        width: 83px;
+        height: 83px;
+    }
+
+    .simpleStepsColumnTitle {
+        font-family: $font-base;
+        font-size: 18px;
+        color: $black-color;
+    }
+
+    .simpleStepsColumnLine {
+        color: $grey-color;
+        width: 70px;
+    }
+
+    .simpleStepsColumnText {
+        font-family: $font-base;
+        font-size: 16px;
+        color: $black-color;
+        height: 40px;
+        width: 100%;
+    }
+}

@@ -1,0 +1,10 @@
+@import '../../atoms/whoWeHelpButton/whoWeHelpButton';
+
+.whoWeHelpButtonsList{
+    display: flex;
+    flex-direction: row;
+    width: 750px;
+    justify-content: space-between;
+    align-self: center;
+    margin-top: 50px;
+}

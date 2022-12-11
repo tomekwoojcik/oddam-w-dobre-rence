@@ -1,0 +1,27 @@
+@import '../../../scss/settings/colors';
+@import '../../../scss/settings/fonts';
+@import '../../../scss/settings/otherVariables';
+
+.footer {
+    align-self: center;
+    margin-bottom: 22px;
+    display: flex;
+    flex-direction: row;
+
+    .textFooter {
+        font-family: $font-base;
+        font-size: 18px;
+        color: $black-color;
+
+    }
+
+    .mediaFooter {
+        align-self: flex-end;
+        .media-button {
+            width: 30px;
+            height: 30px;
+        }
+
+        .facebook {}
+    }
+}

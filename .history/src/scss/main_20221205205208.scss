@@ -1,0 +1,7 @@
+@import './reset';
+@import './settings/colors';
+@import './settings/fonts';
+@import '../components/atoms/buttonsMenu/buttonsMenu';
+@import '../components/molecules/navMenu/navMenu';
+
+*{font-family: $font-base;}

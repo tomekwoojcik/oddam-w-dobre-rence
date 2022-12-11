@@ -1,0 +1,6 @@
+@import './reset';
+@import './settings/colors';
+@import './settings/fonts';
+@import '../components/atoms/buttonsMenu/buttonsMenu';
+
+*{font-family: $font-base;}

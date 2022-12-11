@@ -1,0 +1,10 @@
+@import '../../../scss/settings/fonts';
+@import '../../../scss/settings/colors';
+
+.buttonItem {
+    .button {
+        padding: 9px 20px;
+        color: $black-color;
+        text-decoration: none;
+    }
+}

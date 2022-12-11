@@ -1,0 +1,10 @@
+@import '../../../scss/settings/fonts';
+@import '../../../scss/settings/colors';
+
+.buttonList {
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}

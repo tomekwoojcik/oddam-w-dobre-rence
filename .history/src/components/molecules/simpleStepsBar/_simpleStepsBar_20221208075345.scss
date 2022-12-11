@@ -1,0 +1,10 @@
+@import '../../../scss/settings/fonts';
+@import '../../../scss/settings/colors';
+@import '../../../scss/settings/otherVariables';
+
+.simpleStepsBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: $white-color;
+}

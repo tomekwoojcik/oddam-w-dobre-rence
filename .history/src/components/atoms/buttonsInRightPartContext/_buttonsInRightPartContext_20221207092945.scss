@@ -1,0 +1,10 @@
+@import '../../../scss/settings/fonts';
+@import '../../../scss/settings/colors';
+
+.buttonItemMenuContext{
+    .buttonMenuContext{
+        text-transform: uppercase;
+        text-decoration: none;
+        color: $black-color;
+    }
+}

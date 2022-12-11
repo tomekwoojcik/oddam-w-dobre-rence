@@ -1,0 +1,17 @@
+@import '../../../scss/settings/fonts';
+@import '../../../scss/settings/colors';
+@import '../../../scss/settings/otherVariables';
+
+.buttonItemMenuContext{
+    .buttonMenuContext{
+        text-transform: uppercase;
+        text-decoration: none;
+        color: $black-color;
+        font-size: 36px;
+        padding: 13px 51px;
+        letter-spacing: 0.76px;
+        border: $border;
+        
+        
+    }
+}

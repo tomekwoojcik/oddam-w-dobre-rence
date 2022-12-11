@@ -1,0 +1,26 @@
+@import '../../../scss/settings/fonts';
+@import '../../../scss/settings/colors';
+@import '../../../scss/settings/otherVariables';
+
+.buttonItemMenuContext {
+    width: 250px;
+    border: $border;
+    padding: 13px 51px;
+
+    .buttonMenuContext {
+
+        text-transform: uppercase;
+        text-decoration: none;
+        color: $black-color;
+        font-size: 36px;
+        letter-spacing: 0.76px;
+        word-wrap: break-word;
+        font-family: $font-base;
+        font-weight: 300;
+    }
+
+}
+
+.buttonItemMenuContext:nth-child(2) {
+    margin-left: 44px;
+}

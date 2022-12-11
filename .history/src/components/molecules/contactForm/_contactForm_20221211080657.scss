@@ -1,0 +1,21 @@
+@import '../../atoms/inputContactForm/inputContactForm';    
+@import '../../atoms/textAreaInput/textAreaInput';
+
+.contactForm{
+    width: 528px;
+    display: flex;
+    flex-direction: column;
+    .rowForm{
+        display: flex;
+        flex-direction: row;
+        .divForm:nth-child(1){
+            margin-right: 16px;
+        }
+        .divForm:nth-child(1), .divForm:nth-child(2){
+            width: 256px;
+        }
+        .divForm:nth-child(3){
+            
+        }
+    }
+}

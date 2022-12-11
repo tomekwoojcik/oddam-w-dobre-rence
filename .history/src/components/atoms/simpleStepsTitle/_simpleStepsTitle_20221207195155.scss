@@ -1,0 +1,10 @@
+@import '../../../scss/settings/fonts';
+@import '../../../scss/settings/colors';
+@import '../../../scss/settings/otherVariables';
+
+.simpleStepsTitle {
+    font-size: 38px;
+    font-family: $font-base;
+    letter-spacing: -0.76px;
+    color: $black-color;
+}

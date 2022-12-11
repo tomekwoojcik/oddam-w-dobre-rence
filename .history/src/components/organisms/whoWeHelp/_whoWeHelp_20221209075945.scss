@@ -1,0 +1,18 @@
+@import '../../molecules/whoWeHelpButtons/whoWeHelpButtons';
+@import '../../../scss/settings/fonts';
+@import '../../../scss/settings/colors';
+
+.whoWeHelp{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    
+
+    .whoWeHelpTitle{
+        font-size: 38px;
+        font-family: $font-base;
+        letter-spacing: -0.76px;
+        color: $black-color;
+    }
+}
+

@@ -1,0 +1,12 @@
+@import '../../../scss/settings/fonts';
+@import '../../../scss/settings/colors';
+@import '../../../scss/settings/otherVariables';
+.whoWeHelpList{
+    .whoWeHelpListParagraf{
+        width: 640px;
+        font-family: $font-base;
+        color: $black-color;
+        font-size: 22px;
+
+    }
+}

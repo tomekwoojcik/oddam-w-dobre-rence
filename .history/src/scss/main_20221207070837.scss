@@ -1,0 +1,10 @@
+@import './reset';
+@import './settings/colors';
+@import './settings/fonts';
+@import '../components/atoms/buttonsMenu/buttonsMenu';
+@import '../components/molecules/navMenu/navMenu';
+@import '../components/atoms/buttonsLoginLogout/buttonsLoginLogout';
+@import '../components/molecules/navLoginLogout/navLoginLogout';
+@import '../components/molecules/menu/menu';
+@import '../components/atoms/photoInHeader/photoInHeader.scss';
+*{font-family: $font-base;}

@@ -1,0 +1,30 @@
+@import '../../../scss/settings/colors';
+@import '../../../scss/settings/fonts';
+@import '../../../scss/settings/otherVariables';
+
+
+.rowContactUsLabel {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    .contactUsLabel {
+        margin-bottom: 12px;
+        margin-top: 44px;
+        font-family: $font-base;
+        font-size: 16px;
+        font-weight: 600;
+        color: $black-color;
+
+    }
+
+    .contactUsTextArea {
+        width: 100%;
+        height: 97px;
+        margin-bottom: 44px;
+        border: 0;
+        border-bottom: $border;
+    }
+
+
+}

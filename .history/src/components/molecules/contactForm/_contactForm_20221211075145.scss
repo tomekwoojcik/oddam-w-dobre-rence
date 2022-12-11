@@ -1,0 +1,12 @@
+@import '../../atoms/inputContactForm/inputContactForm';    
+@import '../../atoms/textAreaInput/textAreaInput';
+
+.contactForm{
+    width: 528px;
+    display: flex;
+    flex-direction: column;
+    .rowForm{
+        display: flex;
+        flex-direction: row;
+    }
+}

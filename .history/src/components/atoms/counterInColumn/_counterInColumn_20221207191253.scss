@@ -1,0 +1,10 @@
+@import '../../../scss/settings/fonts';
+@import '../../../scss/settings/colors';
+@import '../../../scss/settings/otherVariables';
+
+.counterColumn{
+    font-size: 90px;
+    font-family: $font-base;
+    color: $mustard-color;
+    font-weight: 300;
+}

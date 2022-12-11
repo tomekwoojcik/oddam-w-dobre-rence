@@ -1,0 +1,16 @@
+@import '../../../scss/settings/colors';
+@import '../../../scss/settings/fonts';
+@import '../../../scss/settings/otherVariables';
+
+
+.divForm {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    .contactUsLabel {
+    }
+}
+
+.divForm{
+    align-self: flex-end;
+}

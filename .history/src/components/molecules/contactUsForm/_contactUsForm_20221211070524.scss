@@ -1,0 +1,19 @@
+@import '../../../scss/settings/colors';
+@import '../../../scss/settings/fonts';
+@import '../../../scss/settings/otherVariables';
+@import '../contactForm/contactForm';
+
+.contactUsForm{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 100%;
+    .contactUsFormTitle{
+        font-family: $font-base;
+        font-size: 38px;
+        letter-spacing: -0.76px;
+    }
+    .decorationAssets{
+        align-self: auto;
+    }
+}
