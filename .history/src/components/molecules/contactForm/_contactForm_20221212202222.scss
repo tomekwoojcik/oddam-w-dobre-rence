@@ -1,0 +1,55 @@
+@import '../../atoms/inputContactForm/inputContactForm';
+@import '../../atoms/textAreaInput/textAreaInput';
+
+@import '../../../scss/settings/colors';
+@import '../../../scss/settings/fonts';
+@import '../../../scss/settings/otherVariables';
+
+.contactForm {
+    width: 528px;
+    display: flex;
+    flex-direction: column;
+
+    .rowForm {
+        display: flex;
+        flex-direction: row;
+        margin-top: 70px;
+
+        .contactUsLabel {
+            margin-bottom: 12px;
+        }
+
+        .divForm:nth-child(1) {
+            margin-right: 16px;
+        }
+
+        .divForm:nth-child(1),
+        .divForm:nth-child(2) {
+            width: 256px;
+        }
+
+        .divForm:nth-child(3) {
+            height: 400px;
+        }
+
+        .inputError{
+            margin-top: 100px;
+            color: red;
+        }
+
+    }
+
+    .formButton {
+        font-family: $font-base;
+        font-weight: 300px;
+        font-size: 18px;
+        color: $black-color;
+        padding: 13px 53px;
+        width: 156px;
+        align-self: flex-end;
+        border: $border;
+        background-color: white;
+
+    }
+
+}
