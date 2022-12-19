@@ -1,0 +1,10 @@
+@import '../../../scss/settings/colors';
+@import '../../../scss/settings/fonts';
+@import '../../../scss/settings/otherVariables';
+
+.square {
+    border: $border;
+    width: 190px;
+    height: 190px;
+    rotate: 90deg;
+}

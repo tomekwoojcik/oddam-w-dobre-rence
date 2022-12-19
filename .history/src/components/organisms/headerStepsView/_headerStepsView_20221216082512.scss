@@ -1,0 +1,10 @@
+@import '../../atoms/headerStepsImg/headerStepsImg';
+@import '../../molecules/headerStepsContext/headerStepsContext';
+@import '../../molecules/introHeaderStepsContext/introHeaderStepsContext';
+@import '../../atoms/introHeaderTitle/introHeaderTitle';
+@import '../../atoms/rowForm/rowForm';
+.headerStepsView{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

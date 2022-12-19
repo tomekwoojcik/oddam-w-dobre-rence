@@ -1,0 +1,25 @@
+@import '../../../scss/settings/colors';
+@import '../../../scss/settings/fonts';
+@import '../../../scss/settings/otherVariables';
+
+.itemsToDonateForm {
+    display: flex;
+    flex-direction: column;
+
+    .rowButton {
+        display: flex;
+        .itemsToDonateFormButton {
+            width: 180px;
+            font-size: 24px;
+            font-family: $font-base;
+            font-weight: 300;
+            padding: 23px 63px;
+            border: $border;
+        }
+
+        .backButton {
+            margin-right: 50px;
+                        padding: 23px 52px;
+        }
+    }
+}

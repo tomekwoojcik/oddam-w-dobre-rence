@@ -1,0 +1,28 @@
+@import '../../../scss/settings/colors';
+@import '../../../scss/settings/fonts';
+@import '../../../scss/settings/otherVariables';
+
+.rowInfo {
+    width: calc(100% - 830px);
+    background-color: $strong-yellow-color;
+    display: flex;
+    // flex-direction: column;
+    align-items: flex-start;
+    padding: 50px 683px 50px 147px;
+
+    .introRow {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        .titleRow {
+            font-family: $font-base;
+            font-weight: 600;
+            font-size: 36px;
+        }
+
+        .rowInfoText {
+            font-family: $font-base;
+            font-size: 22px;
+        }
+    }
+}

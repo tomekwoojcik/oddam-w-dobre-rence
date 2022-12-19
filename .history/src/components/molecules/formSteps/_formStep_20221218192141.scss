@@ -1,0 +1,38 @@
+@import '../../../scss/settings/colors';
+@import '../../../scss/settings/fonts';
+@import '../../../scss/settings/otherVariables';
+
+
+.formStepOne {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 70px;
+    font-family: $font-base;
+
+    .whatDoYouHaveDonate {
+        font-weight: 600px;
+        font-size: 36px;
+        margin-bottom: 40px;
+    }
+
+    .inFormBox {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+        .checkBoxName {
+            display: flex;
+            flex-direction: row;
+            
+            font-weight: 300px;
+            font-size: 24px;
+            margin-bottom: 42px;
+
+            .checkInput {
+                width: 40px;
+                height: 40px;
+            }
+        }
+    }
+}

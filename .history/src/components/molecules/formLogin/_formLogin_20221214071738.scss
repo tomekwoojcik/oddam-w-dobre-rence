@@ -1,0 +1,12 @@
+@import '../../../scss/settings/fonts';
+@import '../../../scss/settings/colors';
+@import '../../../scss/settings/otherVariables';
+
+.formLog {
+    .form {
+        padding: 40px 67.25px;
+        width: calc(384px - 134.5px);
+        height: calc(235px - 80px);
+        background-color: $white-color;
+    }
+}

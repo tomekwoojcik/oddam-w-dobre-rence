@@ -1,0 +1,38 @@
+@import '../../../scss/settings/colors';
+@import '../../../scss/settings/fonts';
+@import '../../../scss/settings/otherVariables';
+
+.square {
+    width: 190px;
+    height: 190px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    .number {
+        font-size: 32px;
+        font-family: $font-base;
+        color: $black-color;
+        font-weight: 300;
+    }
+
+    .textSquare {
+        display: flex;
+        flex-direction: column;
+        font-size: 22px;
+        font-family: $font-base;
+        font-weight: 300;
+        color: $black-color;
+    }
+
+    .introSquare {
+        width: 135px;
+        height: 135px;
+        rotate: 45deg;
+        border: $border;
+        position: absolute;
+        z-index: 100;
+    }
+}

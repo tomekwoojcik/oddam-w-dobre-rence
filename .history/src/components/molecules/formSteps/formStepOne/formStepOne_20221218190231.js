@@ -1,0 +1,15 @@
+import React from 'react'
+
+const FormStepOne = () => {
+  return (
+      <div className='formStepOne'>
+          <h3 className='whatDoYouHaveDonate'>Zaznacz co chcesz oddać:</h3>
+          <div className='inFormBox'>
+              <input id='' type={'checkbox'}/><label></label>
+          </div>
+
+        </div>
+  )
+}
+
+export default FormStepOne

@@ -1,0 +1,41 @@
+@import '../../../scss/settings/fonts';
+@import '../../../scss/settings/colors';
+@import '../../../scss/settings/otherVariables';
+
+.formLog {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+
+    .form {
+        display: flex;
+        flex-direction: column;
+        align-content: space-between;
+        justify-content: space-evenly;
+        padding: 40px 67.25px;
+        width: calc(384px - 134.5px);
+        height: calc(235px - 80px);
+        background-color: $white-color;
+
+        .contactUsInput {
+            background-color: $white-color;
+        }
+
+
+    }
+
+    .btnRow {
+        width: 504px;
+        margin-top: 53px;
+        display: flex;
+        align-content: space-between;
+        .linkLogin {
+            font-style: normal;
+            font-family: $font-base;
+            font-weight: 300;
+            font-size: 18px;
+            color: $black-color;
+            text-decoration: none;
+        }
+    }
+}

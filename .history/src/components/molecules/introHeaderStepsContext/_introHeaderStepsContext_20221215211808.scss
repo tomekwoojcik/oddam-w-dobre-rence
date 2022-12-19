@@ -1,0 +1,12 @@
+
+@import '../../../scss/settings/colors';
+@import '../../../scss/settings/fonts';
+@import '../../../scss/settings/otherVariables';
+.introHeader{
+    margin-top: 134px;
+    width: 663px;
+    height: 455px;
+    .textIntro{
+        font-family: $font-base;
+    }
+}

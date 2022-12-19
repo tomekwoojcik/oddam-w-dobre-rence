@@ -1,0 +1,8 @@
+@import '../../atoms/oneSquare/oneSquare';
+
+.rowSquare{
+    display: flex;
+    flex-direction: row;
+    width: 900px;
+    margin-top: 28px;
+}

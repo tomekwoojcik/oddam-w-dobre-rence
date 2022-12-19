@@ -1,0 +1,14 @@
+@import '../../../scss/settings/colors';
+@import '../../../scss/settings/fonts';
+@import '../../../scss/settings/otherVariables';
+
+.rowForm{
+    width: calc(100% - 830px);
+    background-color: $strong-yellow-color;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 683px 50px 147px;
+    .introRow{
+
+    }
+}

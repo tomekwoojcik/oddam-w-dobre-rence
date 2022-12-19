@@ -1,0 +1,40 @@
+@import '../../scss/settings/colors';
+@import '../../scss/settings/fonts';
+@import '../../scss/settings/otherVariables';
+
+.logOutView {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .contentLogOutView {
+        margin-top: 246px;
+        display: flex;
+        flex-direction: column;
+        width: 414px;
+        height: 100%;
+
+        .titleContextLogOutView {
+            font-size: 40px;
+            font-family: $font-base;
+            font-weight: 300;
+            letter-spacing: -0.8px;
+            color: $black-color;
+        }
+
+        .buttonMenuContext {
+            width: calc(150px - 26px);
+            height: calc(60px - 34px);
+            margin-top: 35px;
+            border: $border;
+            font-family: $font-base;
+            width: 18px;
+            font-weight: 100;
+            padding: 13px 17px;
+            color: $black-color;
+            text-decoration: none;
+
+        }
+    }
+}

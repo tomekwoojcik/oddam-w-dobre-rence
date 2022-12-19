@@ -1,0 +1,7 @@
+@import '../../atoms/headerStepsImg/headerStepsImg';
+@import '../../molecules/headerStepsContext/headerStepsContext';
+
+.headerStepsView{
+    display: flex;
+    flex-direction: row;
+}

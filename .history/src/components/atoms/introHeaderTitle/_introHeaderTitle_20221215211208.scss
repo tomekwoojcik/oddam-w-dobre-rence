@@ -1,0 +1,13 @@
+@import '../../../scss/settings/colors';
+@import '../../../scss/settings/otherVariables';
+@import '../../../scss/settings/fonts';
+
+.introHeaderTitle{
+
+    .text{
+        font-size: 38px;
+        font-family: $font-base;
+        letter-spacing: -0.76px;
+        
+    }
+}
