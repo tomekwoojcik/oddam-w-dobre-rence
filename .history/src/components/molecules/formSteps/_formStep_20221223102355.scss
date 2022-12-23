@@ -1,0 +1,267 @@
+@import '../../../scss/settings/colors';
+@import '../../../scss/settings/fonts';
+@import '../../../scss/settings/otherVariables';
+
+@import '../../atoms/cityListForm/cityListForm';
+@import '../../molecules/whoDoYouWantToHelpButtonList/whoDoYouWantToHelpButtonList';
+@import '../../atoms/formStepThrNameOrg/FormStepThrNameOrg';
+@import '../../molecules/formHomeAdress/formHomeAdress';
+
+.infoSteps {
+    align-items: flex-start;
+}
+
+.formStepOne {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 70px;
+    font-family: $font-base;
+    height: 625px;
+
+    .formRow {
+        width: 936px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .formStepTitle {
+        font-weight: 600px;
+        font-size: 36px;
+        margin-bottom: 40px;
+    }
+
+    .formStepList {
+        margin-bottom: 20px;
+    }
+
+    .whoDoYouWantToHelp {
+        font-family: $font-base;
+        font-size: 24px;
+        font-weight: 600;
+        z-index: 1;
+    }
+
+    .whoDoYouWantToHelpSec {
+        margin-top: 40px;
+    }
+
+
+    .inFormBox {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 158px;
+
+        .inputName {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            font-weight: 300px;
+            font-size: 24px;
+            margin-bottom: 42px;
+            cursor: pointer;
+
+            .checkInput {
+                position: absolute;
+                opacity: 0;
+                cursor: pointer;
+                height: 0;
+                width: 0;
+            }
+
+            .checkBox {
+                margin-right: 30px;
+                width: 40px;
+                height: 40px;
+                border: $border;
+                cursor: pointer;
+
+            }
+        }
+
+        .inputName input:checked+span {
+            background-color: $strong-yellow-color;
+        }
+
+        .inputName:nth-child(5) {
+            margin-bottom: 0;
+        }
+    }
+
+    .rowEnd {
+        display: flex;
+        flex-direction: column;
+
+        .inputNameList {
+            display: flex;
+            align-items: center;
+
+            .listFormStep {
+                width: calc(300px - 18px);
+                padding: 8px 0px 8px 18px;
+                border: $border;
+                margin-left: 33px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                cursor: pointer;
+
+                .listFormStepTitle {
+                    font-size: 24px;
+                    font-family: $font-base;
+                    font-weight: 300;
+                    width: 150px;
+                }
+
+                .arrow {
+                    width: 57px;
+                    height: 26px;
+                    background: url('../../../assets/arrow.png');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+
+                .arrowRotare {
+                    rotate: 180deg;
+                }
+
+
+            }
+
+
+        }
+
+        .inputNameListValue {
+            margin-top: 15px;
+            width: 75px;
+            align-self: flex-end;
+            display: flex;
+            flex-direction: column;
+            border: $border;
+
+            .listButton {
+                width: 75px;
+                height: 30px;
+                background: none;
+                border: none;
+            }
+        }
+
+    }
+
+
+
+    .cityRow {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 50px;
+
+        .cityListForm {
+            border: $border;
+            padding: 8px 0 8px 18px;
+            width: calc(300px - 18px);
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+
+            .titleCityListForm {
+                font-family: $font-base;
+                font-weight: 300;
+                font-size: 24px;
+            }
+
+            .arrow {
+                width: 57px;
+                height: 26px;
+                background: url('../../../assets/arrow.png');
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+
+            .arrowRotare {
+                rotate: 180deg;
+            }
+
+        }
+    }
+
+    .youGiveBack {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+        .youGiveBackTitle {
+            font-weight: 600;
+            font-size: 24px;
+            font-family: $font-base;
+        }
+
+        .youGiveBackRow {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+
+            .clothesIcon {
+                background: url('../../../assets/Icon.png');
+                width: 50px;
+                height: 50px;
+                margin-right: 20px;
+            }
+
+            .roundIcon {
+                background: url('../../../assets/IconRound.png');
+                width: 50px;
+                height: 50px;
+                margin-right: 20px;
+            }
+        }
+
+    }
+
+    .youGiveBackInfo {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+
+        .youGiveBackColumn {
+            display: flex;
+            flex-direction: column;
+            width: 272px;
+            margin-right: 271px;
+
+            .youGiveBackTitle {
+                font-weight: 600;
+                font-size: 24px;
+                font-family: $font-base;
+            }
+
+            .infoDiv {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+
+                .infoDivRow {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    margin-bottom: 20px;
+                    
+                    .infoDivRowTitle {
+                        align-self: flex-start;
+                        width: 89px;
+                        margin-right: 47px;
+                        text-align: left;
+                    }
+                }
+
+                .infoDivRow:nth-child(1){
+                    margin-top: 20px;
+                }
+            }
+        }
+    }
+
+}

@@ -1,0 +1,25 @@
+@import '../../../scss/settings/colors';
+@import '../../../scss/settings/fonts';
+@import '../../../scss/settings/otherVariables';
+
+.formHomeAdress {
+    width: 392px;
+    display: flex;
+    flex-direction: column;
+
+    .formHomeAdressRow {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        .inputAdress {
+            height: 40px;
+            width: 256px;
+        }
+        .labelAdress{
+            width: 101px;
+            text-align: left;
+        }
+    }
+}

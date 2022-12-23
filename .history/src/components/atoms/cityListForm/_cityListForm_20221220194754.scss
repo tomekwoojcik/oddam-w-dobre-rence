@@ -1,0 +1,15 @@
+@import '../../../scss/settings/colors';
+@import '../../../scss/settings/fonts';
+@import '../../../scss/settings/otherVariables';
+
+
+.cityList{
+    margin-top: 15px;
+    border: $border;
+    .elementList{
+        .button{
+            background-color: none;
+            
+        }
+    }
+}

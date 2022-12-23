@@ -1,0 +1,23 @@
+@import '../../../scss/settings/colors';
+@import '../../../scss/settings/fonts';
+@import '../../../scss/settings/otherVariables';
+
+.whoDoYouWantToHelpButtonList{
+    width: 634px;
+    display: flex;
+    flex-direction: row;
+
+    .whoDoYouWantListItem{
+        margin-right: 24px;
+        .whoDoYouWantButton{
+            font-size: 24px;
+            font-weight: 300;
+            font-family: $font-base;
+            padding: 11px 26px;
+            border: $border;
+        }
+    }
+
+        whoDoYouWantListItem
+
+}
