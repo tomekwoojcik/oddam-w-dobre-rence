@@ -238,10 +238,6 @@ export function DatabaseProvider ({ children }) {
   }, [nowSteps])
 
   const itemsToDonateForm = async () => {
-    if (checked.length > 1 || handleButton.slice(1, -1).length > 1 || !inputNameCity || inputNameCity === '— wybierz —' || !buttonList || buttonList.length > 1 || nameOrg.slice(1, -1).length > 1 || !nameOrg || !clientAdress || clientAdress.slice(1, -1).length > 1 || !clientCity || clientCity.slice(1, -1).length > 1 || !clientPostNumber || clientPostNumber.slice(1, -1).length > 1 || !clientPhoneNumber || clientPhoneNumber.slice(1, -1).length > 1 || !dataDeliver || dataDeliver.slice(1, -1) || !pickupTime || !noteToTheCourier) {
-      setInputError('Please fill in all the fields coreectly')
-      return
-    }
     const { data, error } = await supabase
       .from('itemsToDonateForm')
       .insert({ dataForm })
@@ -256,7 +252,6 @@ export function DatabaseProvider ({ children }) {
   }
 
   console.log(dataForm)
-  console.log(inputError)
 
   return (
     <DatabaseContext.Provider value={{ database, fetchError, getValue, setUserName, setUserEmail, setMessage, userEmail, userName, message, sentDataContactUs, inputError, arrayPaginate, pagesVisited, itemsPerPages, changePage, emailUser, setEmailUser, password, setPassword, reapeatPassword, setReapeatPassword, registerInputError, registerHandle, loginInputError, logInHandle, logOutHandle, user, formStepsIncrement, nowSteps, formStepsDecrement, toDonateForm, inputName, listFormStepHandle, arrowRotare, arrowValueList, hiddenListFormStepHandle, handleButton, setHandleButton, cityValueList, handleCityButton, arrowRotareCity, handleCity, inputNameCity, whoDoYouWantToHelpArray, handleWhoDoYouWantToHelpButtonList, backgroundButton, handleCheck, nameOrg, setNameOrg, clientAdress, setClientAdress, clientCity, setClientCity, clientPostNumber, setClientPostNumber, clientPhoneNumber, setClientPhoneNumber, dataDeliver, setDataDeliver, pickupTime, setPickupTime, noteToTheCourier, setNoteToTheCourier, dataForm, itemsToDonateForm }}>{children}</DatabaseContext.Provider>

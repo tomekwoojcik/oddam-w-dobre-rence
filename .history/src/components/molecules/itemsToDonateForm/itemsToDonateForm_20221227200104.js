@@ -8,7 +8,7 @@ const ItemsToDonateForm = () => {
     <div className='itemsToDonateForm'>
       {nowSteps !== 5 ? <p className='steps'>Krok {`${nowSteps}/${allSteps}`}</p> : null}
       <form className='ToDonateForm'>{toDonateForm}</form>
-      {!inputError || <p className='error'>{inputError}</p>}
+      {!inputError ? <p className='error'>{inputError}</p>}
       <div className='rowButton'>
         {nowSteps !== 1 ? <button onClick={() => { formStepsDecrement(nowSteps) }} className='itemsToDonateFormButton backButton'>Wstecz</button> : null}
         {nowSteps !== 5 ? <button onClick={() => { formStepsIncrement(nowSteps) }} className='itemsToDonateFormButton'>Dalej</button> : <button onClick={(e) => { itemsToDonateForm(e) }} className='itemsToDonateFormButton formButtonCheck'>Potwierdzam</button>}

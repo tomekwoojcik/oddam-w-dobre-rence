@@ -238,7 +238,7 @@ export function DatabaseProvider ({ children }) {
   }, [nowSteps])
 
   const itemsToDonateForm = async () => {
-    if (checked.length > 1 || handleButton.slice(1, -1).length > 1 || !inputNameCity || inputNameCity === '— wybierz —' || !buttonList || buttonList.length > 1 || nameOrg.slice(1, -1).length > 1 || !nameOrg || !clientAdress || clientAdress.slice(1, -1).length > 1 || !clientCity || clientCity.slice(1, -1).length > 1 || !clientPostNumber || clientPostNumber.slice(1, -1).length > 1 || !clientPhoneNumber || clientPhoneNumber.slice(1, -1).length > 1 || !dataDeliver || dataDeliver.slice(1, -1) || !pickupTime || !noteToTheCourier) {
+    if (checked.length > 1 || handleButton.slice(1, -1).length > 1 || !inputNameCity || inputNameCity === '— wybierz —' || !buttonList || buttonList.length > 1 || nameOrg.slice(1, -1).length > 1 || !nameOrg || !clientAdress || clientAdress.slice(1, -1).length > 1 || !clientCity || clientCity.slice(1, -1).length > 1 || !clientPostNumber || clientPostNumber.slice(1, -1).length > 1 || !clientPhoneNumber || clientPhoneNumber.slice(1, -1).length > 1 || !dataDeliver || !pickupTime || !noteToTheCourier) {
       setInputError('Please fill in all the fields coreectly')
       return
     }
